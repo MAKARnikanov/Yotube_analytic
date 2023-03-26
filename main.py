@@ -17,5 +17,6 @@ class Youtube:
     def print_info(self):
         print(json.dumps(self.channel, indent=2, ensure_ascii=False))
 
-vdud = Youtube('UCMCgOm8GZkHp8zJ6l7_hIuA')
-vdud.print_info()
+if __name__ == '__main__':
+    vdud = Youtube('UCMCgOm8GZkHp8zJ6l7_hIuA')
+    vdud.print_info()
